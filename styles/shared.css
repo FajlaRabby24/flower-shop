@@ -42,6 +42,10 @@ body {
     text-align: center;
 }
 
+.text-primary{
+    color: #E55473;
+}
+
 .description {
     color: #27272799;
     font-size: 1.125rem;
@@ -104,4 +108,8 @@ body {
 
 .section-gap{
     margin-top: 100px;
+}
+
+.img-fluid{
+    width: 100%;
 }
