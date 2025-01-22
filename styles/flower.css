@@ -1,0 +1,33 @@
+/* banner */
+.banner {
+    padding-top: 100px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+
+
+
+/* media query */
+@media screen and (max-width: 576px) {
+    html{
+        font-size: 10px;
+    }
+    .banner{
+        text-align: center;
+        flex-direction: column-reverse;
+        padding: 40px 24px;
+    }
+    .banner-content{
+        margin-top: 2rem;
+    }
+
+}
