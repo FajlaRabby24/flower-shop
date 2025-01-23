@@ -81,6 +81,16 @@
     font-weight: 400;
 }
 
+/* footer styles  */
+.footer {
+    background-color: #111010;
+    padding: 100px 0;
+}
+
+.footer-title {
+    font-size: 3rem;
+    font-weight: 800;
+}
 
 
 
@@ -135,15 +145,21 @@
     .instagram-card-container {
         flex-direction: column;
     }
-    .latest{
+
+    .latest {
         padding: 20px 0;
     }
-    .input-group{
+
+    .input-group {
         padding: 0 24px;
         gap: 12px;
         flex-direction: column;
     }
-    .input-group input[type="text"]{
+
+    .input-group input[type="text"] {
         width: calc(100% - 46px)
+    }
+    .footer {
+        padding: 40px 24px;
     }
 }
