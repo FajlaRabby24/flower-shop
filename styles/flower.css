@@ -96,4 +96,10 @@
         padding: 50px 24px;
         flex-direction: column;
     }
+    .instagram{
+        padding: 0 24px;
+    }
+    .instagram-card-container{
+        flex-direction: column;
+    }
 }

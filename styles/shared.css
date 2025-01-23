@@ -22,6 +22,10 @@ body {
     display: flex;
 }
 
+.flex-gap{
+    gap: 24px;
+}
+
 .align-center {
     align-items: center;
 }
