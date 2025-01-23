@@ -36,11 +36,12 @@
 }
 
 /* delivery styles  */
-.delivery-card-container{
+.delivery-card-container {
     padding: 50px 0;
     border-radius: 12px;
 }
-.delivery-card-des{
+
+.delivery-card-des {
     color: #272727cc;
     font-size: 1rem;
     margin-top: .5rem;
@@ -48,9 +49,38 @@
 }
 
 /* hot deal styles */
-.hot-deal-content{
+.hot-deal-content {
     max-width: 594px;
 }
+
+/* latest styles  */
+.latest {
+    background-image: url('../assets/img8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+}
+
+
+
+.input-group input[type="text"] {
+    border: none;
+    border-radius: 8px;
+    padding: 22px;
+    background: rgb(255, 255, 255);
+    width: 30%;
+    color: #272727e3;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.input-group input[type="text"]::placeholder {
+    color: #27272799;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 
 
 
@@ -74,7 +104,8 @@
         padding: 0 24px;
     }
 
-    .feature-card-container, .delivery-card-container {
+    .feature-card-container,
+    .delivery-card-container {
         flex-direction: column;
     }
 
@@ -82,24 +113,37 @@
         padding: 50px 40px 0 40px;
     }
 
-    .delivery{
-        padding:0 24px ;
+    .delivery {
+        padding: 0 24px;
     }
 
-    .delivery-card-container{
+    .delivery-card-container {
         padding: 30px 0;
         gap: 60px;
     }
 
-    .hot-deal-row{
+    .hot-deal-row {
         gap: 24px;
         padding: 50px 24px;
         flex-direction: column;
     }
-    .instagram{
+
+    .instagram {
         padding: 0 24px;
     }
-    .instagram-card-container{
+
+    .instagram-card-container {
         flex-direction: column;
+    }
+    .latest{
+        padding: 20px 0;
+    }
+    .input-group{
+        padding: 0 24px;
+        gap: 12px;
+        flex-direction: column;
+    }
+    .input-group input[type="text"]{
+        width: calc(100% - 46px)
     }
 }
